@@ -13,13 +13,13 @@ from tqdm import tqdm
 import numpy as np
 
 # Need to edit path.
-pathList = ["/home/ykim/workspace/graphlab_nlp_project/"] 
+pathList = ["/Users/mark.bentivegna/Documents/GWU/graphlab_nlp_project"] 
 sys.path = pathList
 os.system("pwd")
 from logparser import Drain, Spell
 
 # get [log key, delta time] as input for deeplog
-input_dir  = os.path.expanduser('/mnt/raid0_ssd_8tb/dataset/HDFS/HDFS_1/')
+input_dir  = os.path.expanduser('/Users/mark.bentivegna/Documents/GWU/graphlab_nlp_project/data/HDFS_1')
 output_dir = 'output/hdfs/'  # The output directory of parsing results
 log_file   = "HDFS.log"  # The input log file name
 
